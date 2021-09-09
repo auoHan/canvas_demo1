@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c40bb996-05ae-4c33-81bd-ef2d7b678d1e" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xtapoTSETFR4IGW2Dgod7IfiJT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c40bb996-05ae-4c33-81bd-ef2d7b678d1e" name="默认的" comment="" />
+      <created>1631177024162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631177024162</updated>
+      <workItem from="1631177025248" duration="3716000" />
+      <workItem from="1631180800693" duration="274000" />
+      <workItem from="1631181089399" duration="235000" />
+      <workItem from="1631181341386" duration="1403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="295" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631181073965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="295" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1631181073965" />
+    <state x="566" y="175" key="FileChooserDialogImpl" timestamp="1631182742904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631182742904" />
+    <state x="100" y="79" width="1370" height="711" key="SettingsEditor" timestamp="1631182755075">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="79" width="1370" height="711" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631182755075" />
+    <state x="503" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1631180691794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="503" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1631180691794" />
+  </component>
+</project>
