@@ -15,23 +15,48 @@
   canvas.height = document.documentElement.clientHeight;
   canvas.width = document.documentElement.clientWidth;
   let ctx = canvas.getContext('2d');
+ // ctx.fillStyle = "pink";
+  ctx.strokeStyle = "pink";
+  ctx.lineWidth = 20;
+  ctx.lineJoin = "round";//这里用Cap没用，只能用Join
   let stop = false;
-  canvas.onmousedown=() =>{
-    stop = true;
-  }
-  canvas.onmouseup= ()=>{
-    stop =false;
-  }
-
-  canvas.onmousemove = (e) =>{
-  if (stop===true){
-    ctx.fillStyle = "pink";
-    ctx.beginPath();
-    ctx.arc(e.clientX, e.clientY, 5, 0, Math.PI * 2, true);
-    ctx.stroke();
+  let arr;
+  let isTouchDevice = 'ontouchstart' in document.documentElement;
+  if (isTouchDevice) {
+    canvas.ontouchstart = (e) =>{
+      let x = e.touches[0].clientX;
+      let y = e.touches[0].clientY;
+      arr = [x,y];
     }
-  }
+    canvas.ontouchmove = (e) =>{
+      let x = e.touches[0].clientX;
+      let y = e.touches[0].clientY;
+      drawLine(arr[0],arr[1],x,y);
+      arr = [x,y];
+    }
+  }else {
+  canvas.onmousedown = (e) => {
+    stop = true;
+    arr = [e.clientX,e.clientY];
+  };
+  canvas.onmouseup = () => {
+    stop = false;
+  };
 
+  canvas.onmousemove = (e) => {
+    if (stop === true) {
+      drawLine(arr[0],arr[1],e.clientX,e.clientY);
+      arr = [e.clientX,e.clientY];
+    };
+  };
+  };
+  function drawLine(x1,y1,x2,y2) {
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+    ctx.lineTo(x2, y2);
+    ctx.closePath();
+    ctx.stroke();
+  };
 </script>
 </body>
 </html>
